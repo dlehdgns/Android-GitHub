@@ -1,1 +1,16 @@
-https://gamjatwigim.tistory.com/74
+-- 대략적인 구조 --
+Working Directory(project Files) ->(add)-> stage area ->(commit)-> Head(Local Git repository) ->(push)-> GitHub(Server)
+  관리 하려는 목록에 추가(add)하고, 이 관리할 파일들이 확정(commit)되면 로컬 저장소(head)에 저장이 되고
+이 로컬 저장소에 있는 파일을 원격 서버인(github)에 발행(push)
+
+1. 안드로이드 스튜디오 설정
+  - 메뉴 [VCS] -> [Import into Version Control] -> [Create Git Reposirtory]
+  - 프로젝트 폴더 선택(아직 로컬 깃 저장소에 파일 add 되어 있지 않기 때문에 이름 빨간색 == 파일 변경 사항 추적X) -add,commit하면 색 변경됨
+
+2. 안드로이드 스튜디오 - GitHub 연동
+  - 설정 [Version Control] -> [GitHub]
+  - 아이디, 비밀번호 입력 -> test
+  - 포로젝트 전체 파일 우클릭 -> Git -> Add(파일 색 변경)
+  - 메뉴 [VCS] -> [Import into Version Control] -> [Share Project on GitHub]
+  - 아이디, 비밀번호 입력
+  - commit(로컬에 저장), push(서버에 저장)
