@@ -8,7 +8,7 @@ Working Directory(project Files) ->(add)-> stage area ->(commit)-> Head(Local Gi
   - 프로젝트 폴더 선택(아직 로컬 깃 저장소에 파일 add 되어 있지 않기 때문에 이름 빨간색 == 파일 변경 사항 추적X) -add,commit하면 색 변경됨
 
 2. 안드로이드 스튜디오 - GitHub 연동
-  - [setting] -> [Version Control] -> [GitHub]
+  - [File] -> [setting] -> [Version Control] -> [GitHub]
   - 아이디, 비밀번호 입력 -> test
   - 포로젝트 전체 파일 우클릭 -> Git -> Add(파일 색 변경)
   - 메뉴 [VCS] -> [Import into Version Control] -> [Share Project on GitHub]
